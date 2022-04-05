@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/style.css"/>
+</head>
+<body>
+    <!--h1 for page title-->
+    <div>
+        <h1>Penny Flip Game</h1>
+    </div>
+    <!--penny page-->
+    
+        <img id="penny" src="./assets/penny-heads.jpg" alt="penny image"
+
+    <!--two buttons, one is for penny flip other is to clear scoreboard-->
+    <div id="buttons">
+        <button id="blue-button">Flip the Penny!</button>
+        <button id="orange-button">Clear Scoreboard</button>
+    </div>
+    <!--h3 for result header-->
+    <h3 id="rolling">Let's Get Rolling!</h3>
+    <!--hr tag-->
+    <hr>
+    <!--table with a thead and tbody. 
+        both thead and tbody contain one tr with four th.-->
+    <h2>Scoreboard</h2>
+        <table>
+            <thread>
+                    <tr>
+                            <th>Number of Heads</th>
+                            <th>Percentage Heads</th>
+                            <th>Number of Tails</th>
+                            <th>Percentage Tails</th>
+                    </tr>
+            </thread>
+            <thread>
+                    <tr>
+                        <th class = "heads-counter">0</th>
+                        <th class = "heads-percentage">0%</th>
+                        <th class = "tails-counter">0</th>
+                        <th class = "tails-percentage">0%</th>
+                    </tr>
+            </thread>
+    </table>
+
+    <script src="./assets/script.js"></script>
+</body>
+</html>

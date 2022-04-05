@@ -1,0 +1,41 @@
+body {
+    text-align: center}
+
+div {
+    background-color: white
+}
+
+table {
+    margin-left:auto;
+    margin-right: auto;}
+
+table, th, td {
+    border: 1px solid orange;}
+
+#buttons {
+    border: 1px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;}
+
+img {
+    padding-top: 20px;
+    padding-bottom: 20px;}
+
+#blue-button {
+    background: lightblue;
+    padding-top: 5px;
+    padding-bottom: 5px}
+
+#orange-button {
+    background: orange;
+    padding-top: 5px;
+    padding-bottom: 5px}
+
+#rolling {
+    color: orange;
+    font-weight: bolder;}
+
+#orange-button:hover, #blue-button:hover {
+    background: white;
+    color: black
+}
